@@ -15,7 +15,7 @@ The dataset was sourced from a relational database and imported into MySQL. It c
   - order_items
   - payments
   - products
-  - 
+    
 The data covers transactions for 2024 to mid 2025 across different customers and products.
 
 ## Data Transformation & Cleaning 
