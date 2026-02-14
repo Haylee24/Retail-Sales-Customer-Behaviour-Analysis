@@ -8,6 +8,9 @@ This project uses SQL analysis to understand customer purchasing behavior, evalu
 RetailMart needs to understand why a large number of orders are not completed, how payments impact order success, and which customers and products drive revenue.
 This analysis aims to answer key business questions around order status distribution, customer revenue contribution, purchasing frequency, and sales performance to support better data-driven decisions.
 
+## Tool Used
+- MySQL 
+
 ## Data Sourcing 
 The dataset was sourced from a relational database and imported into MySQL. It consists of five tables representing an e-commerce transaction system:
   - customers
