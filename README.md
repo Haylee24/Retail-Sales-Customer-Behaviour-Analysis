@@ -62,7 +62,7 @@ LIMIT 5;
 
 ### 3. Total orders by status (Completed, Pending, Cancelled)
 ```sql
-ELECT order_status,
+SELECT order_status,
     COUNT(order_id) AS total_orders
 FROM orders
 GROUP BY order_status
@@ -121,11 +121,11 @@ ORDER BY total_sales DESC;
 
 ## Key Insights & Findings 
 1. Total gross revenue #423,334.
-2. In 2024, total sales revenue actualized irrespective of order_status was #294,095.
-3. Sales by Jan - June of 2025, we have already actualized close to 50% of the revenue generated in the past year which tells us that business has been the same; no change in customer purchase behaviour.
+2. In 2024, total sales revenue actualized irrespective of the status of the order was #294,095.
+3. Sales by Jan - June of 2025 actualized was already close to 50% of the revenue generated in the past year which tells us that business has been the same; no change in customer purchase behaviour.
 4. Overall bags of rice was the product that generated the highest total sales of #129,850 which makes sense because it is consumed on a regular by customers.
 5. Cancelled orders are more compared to pending and completed orders; which is only 1/3 of the total orders.
-6.  Anna Ojo is the customer that places the most orders followed by John Okafor, Peter Williams, James Okoye, Daniel Ahmed. These customers should be given rewards at the end of purchase year and placed on discounts for certain products for customer retention.
+6. Anna Ojo is the customer that places the most orders followed by John Okafor, Peter Williams, James Okoye, Daniel Ahmed. These customers should be given rewards at the end of purchase year and placed on discounts for certain products for customer retention.
 7.  Only 31.58% of orders are completed, while 68.42% are either pending (33.25%) or cancelled (35.17%). This indicates a significant drop-off after order placement, suggesting issues in payment completion or
 customer follow-through. The high cancellation rate represents lost revenue, and the large share of pending orders highlights opportunities to improve conversion through better payment reliability, reminders, or checkout optimization.
 8. The customer with the highest number of orders is not necessarily the highest revenue generator, indicating that some customers place frequent low-value orders while others place fewer high-value purchases.
